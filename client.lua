@@ -1,6 +1,5 @@
 local hazardsOn = false
 
--- ustaw sobie klawisz (tutaj F11)
 local toggleKey = 344 -- F11
 
 Citizen.CreateThread(function()
@@ -19,3 +18,4 @@ Citizen.CreateThread(function()
         end
     end
 end)
+
