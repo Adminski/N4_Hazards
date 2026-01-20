@@ -12,10 +12,11 @@ Citizen.CreateThread(function()
                 local veh = GetVehiclePedIsIn(ped, false)
 
                 hazardsOn = not hazardsOn
-                SetVehicleIndicatorLights(veh, 0, hazardsOn) -- lewy
-                SetVehicleIndicatorLights(veh, 1, hazardsOn) -- prawy
+                SetVehicleIndicatorLights(veh, 0, hazardsOn) -- Left
+                SetVehicleIndicatorLights(veh, 1, hazardsOn) -- Right
             end
         end
     end
 end)
+
 
